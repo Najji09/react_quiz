@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --mainColor: #fac6ed;
+  --textColor: #fff;
+  --textHighLightColor: #4643e0;
+  --cardColor: #fff0f7;
+  --buttonColor: #9af3ff;
+  --buttonHoverColor: #00e49f;
+  --cardInnerColor: #651ac7;
+  --cardInnerColor2: #465ee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--mainColor);
+  color: var(--textColor);
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+div.app {
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--cardColor);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50px;
+  -webkit-box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479), inset 0 -8px 20px 0 var(--mainColor);
+          box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479), inset 0 -8px 20px 0 var(--mainColor);
+}
+
+div.app .qnaSection .qLength {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  color: var(--cardInnerColor);
+  font-weight: bold;
+}
+
+div.app .qnaSection .questionSection {
+  width: 700px;
+  height: 200px;
+  right: 5%;
+  top: 12%;
+  border-radius: 30px;
+  position: absolute;
+  text-align: center;
+  font-size: 28px;
+  line-height: 180px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background-color: #ad8ae6;
+  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+          box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+}
+
+div.app .qnaSection .answerSection {
+  width: 700px;
+  height: 300px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  padding-top: 20px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background: rgba(234, 249, 255, 0.411);
+  -webkit-box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42), inset 0 -8px 16px 0 #a3a2ff;
+          box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42), inset 0 -8px 16px 0 #a3a2ff;
+}
+
+div.app .qnaSection .answerSection button {
+  width: 600px;
+  margin: 5px;
+  margin-top: 12px;
+  margin-left: 50px;
+  background-color: var(--buttonColor);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+          box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+  color: var(--cardInnerColor);
+}
+
+div.app .qnaSection .answerSection button span {
+  position: absolute;
+  left: 20px;
+}
+
+div.app .qnaSection .answerSection button:hover {
+  background-color: var(--buttonHoverColor);
+  color: var(--textColor);
+  -webkit-box-shadow: inset 0px 10px 16px 0 #0589aa;
+          box-shadow: inset 0px 10px 16px 0 #0589aa;
+}
+
+div.app .scoreSection {
+  width: 800px;
+  height: 300px;
+  background-color: #ad8ae6;
+  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+          box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 80px;
+  padding-top: 30px;
+}
+
+div.app .scoreSection span {
+  color: var(--textColor);
+  font-weight: bold;
+}
+
+div.app .scoreSection button {
+  width: 100px;
+  background-color: var(--buttonColor);
+  border: none;
+  border-radius: 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 16px;
+  height: 50px;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+          box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+}
+
+div.app .scoreSection button:hover {
+  width: 120px;
+  height: 70px;
+  font-size: 20px;
+  background-color: var(--buttonHoverColor);
+  color: var(--textColor);
+  -webkit-box-shadow: inset 0px 10px 16px 0 #0589aa;
+          box-shadow: inset 0px 10px 16px 0 #0589aa;
+}
