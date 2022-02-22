@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 :root {
   --mainColor: #fac6ed;
   --textColor: #fff;
@@ -45,10 +45,12 @@ div.app {
   left: 50%;
   background-color: var(--cardColor);
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 50px;
-  -webkit-box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479), inset 0 -8px 20px 0 var(--mainColor);
-          box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479), inset 0 -8px 20px 0 var(--mainColor);
+  -webkit-box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479),
+    inset 0 -8px 20px 0 var(--mainColor);
+  box-shadow: 0 35px 68px rgba(254, 63, 238, 0.479),
+    inset 0 -8px 20px 0 var(--mainColor);
 }
 
 div.app .qnaSection .qLength {
@@ -70,10 +72,12 @@ div.app .qnaSection .questionSection {
   font-size: 28px;
   line-height: 180px;
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   background-color: #ad8ae6;
-  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
-          box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #5c198f6b;
+  box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #5c198f6b;
 }
 
 div.app .qnaSection .answerSection {
@@ -85,10 +89,12 @@ div.app .qnaSection .answerSection {
   left: 5%;
   padding-top: 20px;
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   background: rgba(234, 249, 255, 0.411);
-  -webkit-box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42), inset 0 -8px 16px 0 #a3a2ff;
-          box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42), inset 0 -8px 16px 0 #a3a2ff;
+  -webkit-box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #a3a2ff;
+  box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #a3a2ff;
 }
 
 div.app .qnaSection .answerSection button {
@@ -106,7 +112,7 @@ div.app .qnaSection .answerSection button {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-box-shadow: inset 0 -8px 16px 0 #a3a2ff;
-          box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+  box-shadow: inset 0 -8px 16px 0 #a3a2ff;
   color: var(--cardInnerColor);
 }
 
@@ -119,20 +125,22 @@ div.app .qnaSection .answerSection button:hover {
   background-color: var(--buttonHoverColor);
   color: var(--textColor);
   -webkit-box-shadow: inset 0px 10px 16px 0 #0589aa;
-          box-shadow: inset 0px 10px 16px 0 #0589aa;
+  box-shadow: inset 0px 10px 16px 0 #0589aa;
 }
 
 div.app .scoreSection {
   width: 800px;
   height: 300px;
   background-color: #ad8ae6;
-  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
-          box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42), inset 0 -8px 16px 0 #5c198f6b;
+  -webkit-box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #5c198f6b;
+  box-shadow: 0 35px 68px 0 rgba(170, 63, 254, 0.42),
+    inset 0 -8px 16px 0 #5c198f6b;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 50px;
   font-size: 32px;
   text-align: center;
@@ -156,7 +164,8 @@ div.app .scoreSection button {
   height: 50px;
   font-weight: bold;
   -webkit-box-shadow: inset 0 -8px 16px 0 #a3a2ff;
-          box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+  box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+  color: var(--cardInnerColor);
 }
 
 div.app .scoreSection button:hover {
@@ -166,5 +175,83 @@ div.app .scoreSection button:hover {
   background-color: var(--buttonHoverColor);
   color: var(--textColor);
   -webkit-box-shadow: inset 0px 10px 16px 0 #0589aa;
-          box-shadow: inset 0px 10px 16px 0 #0589aa;
+  box-shadow: inset 0px 10px 16px 0 #0589aa;
+}
+
+@media screen and (max-width: 600px) {
+  div.app {
+    width: 90vw;
+    height: 500px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  div.app .qnaSection .qLength {
+    top: 20px;
+    left: 30px;
+  }
+  div.app .qnaSection .questionSection {
+    width: 95vw;
+    height: 200px;
+    right: 5%;
+    top: 10%;
+    font-size: 16px;
+    line-height: 180px;
+  }
+  div.app .qnaSection .answerSection {
+    width: 95vw;
+    height: 300px;
+    border-radius: 50px;
+    bottom: 5%;
+    left: 5%;
+    padding-top: 20px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background: rgba(234, 249, 255, 0.411);
+    -webkit-box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42),
+      inset 0 -8px 16px 0 #a3a2ff;
+    box-shadow: 0 35px 68px 0 rgba(200, 63, 254, 0.42),
+      inset 0 -8px 16px 0 #a3a2ff;
+  }
+  div.app .qnaSection .answerSection button {
+    width: 85vw;
+    margin-top: 12px;
+    margin-left: 5vw;
+    background-color: var(--buttonColor);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+    box-shadow: inset 0 -8px 16px 0 #a3a2ff;
+    color: var(--cardInnerColor);
+  }
+  div.app .qnaSection .answerSection button span {
+    position: absolute;
+    left: 20px;
+  }
+  div.app .qnaSection .answerSection button:hover {
+    background-color: var(--buttonHoverColor);
+    color: var(--textColor);
+    -webkit-box-shadow: inset 0px 10px 16px 0 #0589aa;
+    box-shadow: inset 0px 10px 16px 0 #0589aa;
+  }
+  div.app .scoreSection {
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--textHighLightColor);
+  }
+  div.app .scoreSection span {
+    color: var(--textHighLightColor);
+  }
+  div.app .scoreSection button {
+    color: var(--cardInnerColor);
+  }
 }
