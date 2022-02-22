@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Najji09/react_quiz/static/css/main.e5fd8b87.css",
+    "main.js": "/Najji09/react_quiz/static/js/main.9dbff7e7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Najji09/react_quiz/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Najji09/react_quiz/index.html",
+    "main.e5fd8b87.css.map": "/Najji09/react_quiz/static/css/main.e5fd8b87.css.map",
+    "main.9dbff7e7.js.map": "/Najji09/react_quiz/static/js/main.9dbff7e7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Najji09/react_quiz/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5fd8b87.css",
+    "static/js/main.9dbff7e7.js"
+  ]
+}
